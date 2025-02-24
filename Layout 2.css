@@ -1,0 +1,170 @@
+ul li:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+}
+
+/* .logo{
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+} */
+ul li {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    margin: 40px;
+    font-family: sans-serif;
+}
+
+span {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+span img {
+    margin-left: 18px;
+}
+
+.first p {
+    font-size: 21px;
+    width: 812px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.first button {
+    padding: 12px 20px;
+    min-height: 48px;
+    min-width: 256px;
+    text-align: center;
+    color: white;
+    background-color: rgb(71 210 232);
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.first button:hover {
+    background-color: rgb(79, 200, 218);
+    cursor: pointer;
+}
+
+.logo img {
+    height: 72px;
+    width: 192px;
+    margin: 12px -25px 0 17px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.flex img {
+    height: 70px;
+    width: 95px;
+    margin-right: 20px;
+    margin-left: -260px;
+}
+
+.btn {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+}
+
+.bigP {
+    font-size: 10px;
+}
+
+.smallP {
+    font-size: 8px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+}
+
+.item h1 {
+    margin-bottom: 40px;
+}
+
+.item-lang1 h1 {
+    margin-bottom: -10px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.lang {
+    background-color: #021f280d;
+    margin: 15px;
+    padding: 15px;
+    transition: transform 0.5s ease;
+
+}
+
+.lang:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1027px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    font-size: 30px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 225, 220);
+    height: 70px;
+}
